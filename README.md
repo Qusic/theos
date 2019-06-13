@@ -2,8 +2,9 @@
 
 https://hub.docker.com/r/qusic/theos
 
-* Ubuntu-based
-* Toolchain by [kabiroberai](https://github.com/kabiroberai/ios-toolchain-linux)
+* Based on Ubuntu 18.04
+* iOS toolchain by [kabiroberai](https://github.com/kabiroberai/ios-toolchain-linux)
+* Swift 5.0.1 toolchain by [kabiroberai](https://github.com/kabiroberai/swift-toolchain-linux)
 * iOS 12.2 SDK from [DavidSkrundz](https://github.com/DavidSkrundz/sdks)
 
 ## Integration Ideas
