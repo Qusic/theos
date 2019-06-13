@@ -7,7 +7,7 @@ SDK_LIST="iPhoneOS12.2.sdk"
 
 apt-get update
 apt-get upgrade --yes
-apt-get install --yes clang make perl $BUILD_DEPS
+apt-get install --yes clang make perl rsync $BUILD_DEPS
 
 pushd /opt
 
