@@ -7,10 +7,18 @@ https://hub.docker.com/r/qusic/theos
 * Swift 5.0.1 toolchain by [kabiroberai](https://github.com/kabiroberai/swift-toolchain-linux)
 * iOS 12.2 SDK from [DavidSkrundz](https://github.com/DavidSkrundz/sdks)
 
+## [VS Code Dev Container](vscode-dev-container)
+
+* Objective-C code intellisense
+* Project build task
+
 ## Integration Ideas
 
-- [ ] [vscode remote development](https://code.visualstudio.com/docs/remote/remote-overview)
-- [ ] [libimobiledevice](https://www.libimobiledevice.org/)
+* clang-8 and clangd lsp for better dev experience
+* make install (however I don't have jailbroken devices for testing)
+* swift code intellisense
+* install normal apps (?)
+* lldb debugging with real devices (?)
 
 ## Usage Demo
 

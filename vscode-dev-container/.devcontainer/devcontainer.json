@@ -1,0 +1,8 @@
+{
+    "name": "theos",
+    "dockerFile": "Dockerfile",
+    "postCreateCommand": "mkdir -p /tmp/theos && rm -rf .theos && ln -s /tmp/theos .theos",
+    "extensions": [
+        "mitaki28.vscode-clang"
+    ]
+}

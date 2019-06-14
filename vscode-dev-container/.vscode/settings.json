@@ -1,0 +1,20 @@
+{
+    "terminal.integrated.setLocaleVariables": false,
+    "clang.objcflags": [
+        "-target", "/opt/theos/toolchain/linux/iphone/bin/arm64-apple-darwin14",
+        "-arch", "arm64",
+        "-isysroot", "/opt/theos/sdks/iPhoneOS12.2.sdk",
+        "-I/opt/theos/include",
+        "-I/opt/theos/vendor/include",
+        "-I/opt/theos/include/_fallback",
+        "-DTARGET_IPHONE=1",
+        "-DDEBUG",
+        "-miphoneos-version-min=6.0",
+        "-fobjc-arc",
+        "-Wall",
+        "-Werror"
+    ],
+    "files.associations": {
+        "*.h": "objective-c"
+    }
+}
