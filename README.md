@@ -1,7 +1,5 @@
 # Dockerized [Theos](https://github.com/theos/theos)
 
-https://hub.docker.com/r/qusic/theos
-
 * Based on Ubuntu 18.04
 * iOS toolchain by [kabiroberai](https://github.com/kabiroberai/ios-toolchain-linux)
 * Swift 5.0.1 toolchain by [kabiroberai](https://github.com/kabiroberai/swift-toolchain-linux)
